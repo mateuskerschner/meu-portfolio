@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #191919;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0px;
+}
+
+.portifolio {
+    color: #ffff;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+span {
+    color: #ff0000;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 70px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a {
+    color: #7e7c7c;
+    list-style: none;
+    display: inline-block;
+}
+
+a:hover {
+    color: #ff0000;
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+.nome {
+    background-image: linear-gradient(to top,
+            #ffffff, #f31111 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-style: oblique;
+    font-size: 30px;
+}
+
+.Dev {
+    background-image: linear-gradient(to top,
+            #ffffff, #f31111 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-style: oblique;
+    font-size: 50px;
+}
+
+.btn-contato button {
+    padding: 20px 30px;
+    background-image: linear-gradient(
+    to top left,
+    #ffffff, #ff0000 80%);
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    top: 60px;
+    left: 300px;
+}
+
+button {
+    box-shadow: 0px 0px 8px #fafafa;
+}
+
+/*Estilo do topo*/
+
+section.topo {
+    padding: 50px 4%;
+}
+
+section.topo .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.principal {
+    margin-top: -200px;
+}
+
+.txt-topo {
+    line-height: 70px;
+}
+
+.img-topo img {
+    position: relative;
+    animation: flut 2s ease-in-out infinite alternate;
+    box-shadow: 0px 0px 80px #fafafa;
+}
+
+@keyframes flut {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+.texto {
+    font-size: 25px;
+    color: #fffefe;
+    line-height: 30px;
+    top: 15px;
+
+}
+
+.interface1 {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+
+}
+
+.titulo {
+    background-image: linear-gradient(to top,
+            #ffffff, #f31111 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-style: oblique;
+    font-size: 40px;
+    line-height: 70px;
+    margin-left: 300px;
+    margin-top: -100px;
+}
+
+.txtsobre {
+    color: #fafafa;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+
+.imgpg2 {
+    padding: 10px;
+    line-height: 50px;
+}
+
+.btn-Curriculo button {
+    padding: 20px 30px;
+    background-image: linear-gradient(to top left,
+            #ffffff, #ff0000 80%);
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    top: 60px;
+    left: 300px;
+    box-shadow: 0px 0px 8px #fafafa;
+}
+
+.imghtml {
+    margin-left: -90px;
+}
+
+.imgcss {
+    margin-left: -170px;
+}
+
+.imgpg {
+    margin-left: -50px;
+}
+
+/* Projetos*/
+
+section.projetos {
+    padding: 80px 4%;
+}
+
+section.projetos .flex {
+    gap: 80px;
+
+}
+
+.pj1 {
+    width: 400px;
+    height: 400px;
+    background-color: #faf9f9;
+    background-size: cover;
+    background-position: 50% 0%;
+    box-shadow: 0px 0px 20px #f5f2f2;
+    position: relative;
+    border-radius: 20px;
+}
+
+.nome-projeto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000098;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fafafa;
+}
+
+.pj1:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+section .titulop {
+    background-image: linear-gradient(to top,
+            #ffffff, #f31111 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-style: oblique;
+    font-size: 40px;
+    margin-left: 500px;
+}
+
+section .praticas {
+    line-height: 200px;
+    font-size: 25px;
+    color: #fafafa;
+    margin-left: 250px;
+    margin-top: 0px;
+}
+
+.pj1 a {
+    color: #fafafa;
+    font-size: 20px;
+}
+
+/*pag 4*/
+
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+form input,
+textarea {
+    width: 100%;
+    background-color: #ffffffb4;
+    border: 0;
+    outline: 0;
+    padding: 15px 15px;
+    border-radius: 20px;
+    color: #000000;
+    font-size: 15px;
+}
+
+form input::placeholder {
+    color: #191919;
+    font-weight: 700;
+}
+
+textarea {
+    resize: none;
+    max-height: 200px;
+    width: 100%;
+}
+
+.btn-enviar {
+    margin-top: 15px;
+}
+
+.btn-enviar input {
+    background-image: linear-gradient(to top left,
+            #ffffff, #f31111 80%);
+    font-weight: 700;
+    box-shadow: 0px 0px 8px #fafafa;
+}
+
+.btn-enviar:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+.tituloc {
+    background-image: linear-gradient(to top,
+            #ffffff, #f31111 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-style: oblique;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: -150px;
+    line-height: 100px;
+}
+
+.btn-social a {
+    background-image: linear-gradient(to top left,
+            #ffffff, #f31111 80%);
+    color: #fffefe;
+    margin-left: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-social i {
+    margin-left: 15px;
+    height: 50%;
+    width: 50%;
+    font-size: 20px;
+    line-height: 50px;
+}
