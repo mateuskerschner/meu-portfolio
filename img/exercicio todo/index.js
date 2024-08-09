@@ -91,11 +91,6 @@ document.addEventListener("click", (e) => {
     }
 });
 
-cancelEditBtn.addEventListener("click", (e) => {
-    e.preventDefault();
-    toggleForms();
-});
-
 editForm.addEventListener("submit", (e) => {
     e.preventDefault();
 
